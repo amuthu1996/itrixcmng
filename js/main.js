@@ -162,7 +162,7 @@ $(".subscribe").click(function(){
 });
 
 $("#itrix-subscription").submit(function(){
-	$(".subscription").append('<span class="thq" style="display:none">Thanks for Subscribing to us! </span><span class="thq2" style="display:none;color:#2EABE2;">See you at Itrix!!</span>')
+	$(".subscription").append('<span class="thq" style="display:none">Dear ' + document.getElementById("sname").value + ', Thanks for Subscribing to us! </span><span class="thq2" style="display:none;color:#2EABE2;">See you at Itrix!!</span>')
 	$(".subs-input").fadeOut(400,function(){
 		$(".thq").fadeIn(400, function(){
 			$(".thq2").fadeIn(400);

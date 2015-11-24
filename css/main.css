@@ -148,18 +148,8 @@
 
 }
 
-@media screen and (max-width: 490px) {
 
-	.sp-content h2 {
-		font-size: 30px !important;
-		f
-	}
 
-	.box {
-		width: 100%%;
-	}
-
-}
 
 
 
@@ -213,7 +203,7 @@ h2{
 .sp-container h2 {
 	position: absolute;
 	top: 50%;
-	line-height: 100px;
+	line-height: 80px;
 	height: 100px;
 	margin-top: -50px;
 	font-size: 50px;
@@ -245,12 +235,14 @@ h2{
 }
 .sp-container h2.frame-4 {
 	font-size: 200px;
+	line-height: 100px;
 	-webkit-animation-delay: 9s;
 	-moz-animation-delay: 9s;
 	-ms-animation-delay: 9s;
 	animation-delay: 9s;
 }
 .sp-container h2.frame-5 {
+	margin-top: -100px;
 	top:70%;
 	color: transparent;
 	text-shadow: 0px 0px 1px #fff;
@@ -289,6 +281,8 @@ h2{
 	animation: blurFadeIn 3s ease-in 12s backwards;	
 }
 
+
+
 .subscribe{
 	color: #2EABE2 !important;
 }
@@ -306,7 +300,10 @@ h2{
     color: #2EABE2;
     padding: 9px 15px 5px 15px;
     margin-right: 10px;
+    margin-bottom: 15px;
     outline: none;
+    line-height: 80px;
+    display: block;
 }
 
 .subs-btn{
@@ -317,6 +314,8 @@ h2{
     padding: 9px 15px 5px 15px;
     margin-right: 10px;
     outline: none;
+    line-height: 80px;
+    display: block;
 }
 
 .subs-btn:focus, .subs-btn:hover{
@@ -332,6 +331,8 @@ h2{
     box-shadow: 0 0 8px #2EABE2;
    /* border: 1px solid #2EABE2;*/
 }
+
+
 /*.sp-container h2.frame-7 {
 	top: 90%;
 	color: transparent;
@@ -341,6 +342,122 @@ h2{
 	-ms-animation: blurFadeIn 3s ease-in 16s backwards;
 	animation: blurFadeIn 3s ease-in 16s backwards;	
 }*/
+
+@media screen and (max-width: 490px) {
+
+	.sp-container h2 {
+		font-size: 30px;
+		line-height: 50px;
+
+		
+	}
+
+	.sp-container h2.frame-4 {
+		font-size: 100px;
+		line-height: 100px;
+		margin-top: -80px;
+		
+	}
+
+	.sp-container h2.frame-6 {
+		
+		margin-top: -70px;
+		
+	}
+
+	.sp-container h2.frame-5 {
+		
+		margin-top: -80px;
+		
+	}
+
+
+
+	.box {
+		width: 100%;
+		
+	}
+
+	.subs-txt{
+		
+	    font-size: 20px;
+	    line-height: 40px;  
+	    
+	}
+
+	.subs-btn{
+	    font-size: 20px;
+	    line-height: 40px; 
+	    
+	}
+
+	.logo {
+		height: 140px;
+
+	}
+
+}
+
+@media screen and (max-height: 830px) {
+
+	.sp-container h2 {
+		font-size: 30px;
+		line-height: 50px;
+
+		
+	}
+
+	.sp-container h2.frame-4 {
+		font-size: 100px;
+		line-height: 100px;
+		margin-top: -80px;
+		
+	}
+
+	.sp-container h2.frame-6 {
+		
+		margin-top: -70px;
+		
+	}
+
+	.sp-container h2.frame-5 {
+		
+		margin-top: -80px;
+		
+	}
+
+
+
+	.box {
+		width: 100%;
+		
+	}
+
+	.subs-txt{
+		
+	    font-size: 20px;
+	    line-height: 40px;  
+	    
+	}
+
+	.subs-btn{
+	    font-size: 20px;
+	    line-height: 40px; 
+	    
+	}
+
+	.logo {
+		height: 140px;
+
+	}
+
+}
+
+@media screen and (max-height: 450px) {
+	.subs-txt{
+		display: inline;
+	}
+}
 
 
 
@@ -515,3 +632,4 @@ h2{
 		transform: scale(1) rotate(0deg);
 	}
 }
+
